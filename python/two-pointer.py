@@ -8,6 +8,3 @@ def is_palindrome(word:str)->bool:
         left_pointer+=1
         right_pointer-=1
     return True
-
-print(is_palindrome("cac"))
-print(is_palindrome("car"))
